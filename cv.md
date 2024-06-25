@@ -1,3 +1,10 @@
 # Natalia Zelenevskaya
 
 ## Junior Front-end Developer
+
+## Contact information
+
+**Location**: [Minsk, Belarus](https://www.google.by/maps/place/%D0%9C%D0%B8%D0%BD%D1%81%D0%BA,+%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C/@53.8847295,27.4285601,11z/data=!3m1!4b1!4m6!3m5!1s0x46dbcfd35b1e6ad3:0xb61b853ddb570d9!8m2!3d53.9006011!4d27.558972!16zL20vMGRseGo?hl=ru&entry=ttu)  
+**Phone**: +375-(29)-333-01-78  
+**Email**: zelenevskayan2015@gmail.com  
+**GitHub**: [@NatalliaZel](https://github.com/NatalliaZel)
