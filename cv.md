@@ -21,3 +21,17 @@
 - JavaScript. Basics
 - Git, Github
 - Visual studio code
+
+## Code example
+
+Code shows prime numbers from 1 to 10 in console:
+
+```
+let n = 10;
+newStart: for (let i = 2; i <= 10; i++) {
+  for (let j = 2; j < i; j++>) {
+    if (i % j == 0) continue newStart;
+  }
+  console.log (i);
+}
+```
