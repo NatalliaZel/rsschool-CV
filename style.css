@@ -30,3 +30,24 @@ h2 {
   font-size: inherit;
   font-weight: 400;
 }
+
+/*** fonts ***/
+@font-face {
+  font-family: "Raleway";
+  src: url("fonts/Raleway-Regular.eot");
+  src: url("fonts/Raleway-Regular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Raleway-Regular.woff2") format("woff2"),
+    url("fonts/Raleway-Regular.woff") format("woff"),
+    url("fonts/Raleway-Regular.svg#Raleway-Regular") format("svg");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("fonts/Raleway-Bold.eot");
+  src: url("fonts/Raleway-Bold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Raleway-Bold.woff2") format("woff2"),
+    url("fonts/Raleway-Bold.woff") format("woff"),
+    url("fonts/Raleway-Bold.svg#Raleway-Bold") format("svg");
+  font-weight: 600;
+}
