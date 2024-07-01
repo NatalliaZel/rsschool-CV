@@ -7,7 +7,441 @@
     <title>Natalia Zelenevskaya</title>
   </head>
   <body>
+    <div class="container">
+      <div class="wrapper">
+        <header class="header">
+          <nav class="header-navigiton navigiton">
+            <ul class="navigation-list">
+              <li class="navigation-item item-contacts">
+                <a href="#contacts" class="navigation-link">Contacts</a>
+              </li>
+              <li class="navigation-item item-about">
+                <a href="#about" class="navigation-link">About me</a>
+              </li>
+              <li class="navigation-item item-skills">
+                <a href="#skills" class="navigation-link">Skills</a>
+              </li>
+              <li class="navigation-item item-education">
+                <a href="#education" class="navigation-link">Education</a>
+              </li>
+              <li class="navigation-item item-languages">
+                <a href="#languages" class="navigation-link">Languages</a>
+              </li>
+              <li class="navigation-item item-projects">
+                <a href="#projects" class="navigation-link">Projects</a>
+              </li>
+              <li class="navigation-item item-code">
+                <a href="#code" class="navigation-link">Code example</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
 
+        <main class="main">
+          <div class="main-promo promo">
+            <div class="promo-photo">
+              <div class="promo-color"></div>
+              <img
+                class="promo-img"
+                src="images/photo.jpg"
+                alt="profile photo">
+            </div>
+            <div class="promo-description">
+              <div class="promo-wrapper">
+                <h1 class="promo-name">
+                  Natalia <span class="promo-surname">Zelenevskaya</span>
+                </h1>
+                <div class="promo-position">Junior Front-end Developer</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="main-content content">
+            <div class="content-left">
+              <section class="content-contacts contacts" id="contacts">
+                <h2 class="contacts-title title">Contacts</h2>
+                <div class="contacts-line line"></div>
+                <ul class="contacts-container">
+                  <li class="contacts-item contacts-location">
+                    <div class="contacts-icon">
+                      <img src="images/location.png" alt="location">
+                    </div>
+                    <span class="contacts-category">Location:</span>
+                    <a
+                      class="contacts-info"
+                      href="https://www.google.by/maps/place/%D0%9C%D0%B8%D0%BD%D1%81%D0%BA,+%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C/@53.8847295,27.4285601,11z/data=!3m1!4b1!4m6!3m5!1s0x46dbcfd35b1e6ad3:0xb61b853ddb570d9!8m2!3d53.9006011!4d27.558972!16zL20vMGRseGo?hl=ru&entry=ttu"
+                      target="_blank"
+                    >
+                      Minsk, Belarus
+                    </a>
+                  </li>
+
+                  <li class="contacts-item contacts-email">
+                    <div class="contacts-icon">
+                      <img src="images/email.png" alt="email">
+                    </div>
+                    <span class="contacts-category">Email:</span>
+                    <a
+                      class="contacts-info"
+                      href="mailto:zelenevskayan2015@gmail.com"
+                      >zelenevskayan2015@gmail.com</a
+                    >
+                  </li>
+                  <li class="contacts-item contacts-github">
+                    <div class="contacts-icon">
+                      <img src="images/github.png" alt="github">
+                    </div>
+                    <span class="contacts-category">GitHub:</span>
+                    <a
+                      class="contacts-info"
+                      href="https://github.com/NatalliaZel"
+                      target="_blank"
+                      ><span>@NatalliaZel</span></a
+                    >
+                  </li>
+                </ul>
+              </section>
+
+              <section class="content-skills skills" id="skills">
+                <h2 class="skills-title title">Skills</h2>
+                <div class="skills-line line"></div>
+                <ul class="skills-container">
+                  <li class="skills-item item-html">
+                    <p class="skills-name">HTML5</p>
+                    <div class="skills-bar bar">
+                      <div class="bar-line line-html" id="item-html"></div>
+                    </div>
+                    <div class="skills-counter" id="number-html">0%</div>
+                  </li>
+                  <li class="skills-item item-css">
+                    <p class="skills-name">CSS3</p>
+                    <div class="skills-bar bar">
+                      <div class="bar-line line-css" id="item-css"></div>
+                    </div>
+                    <div class="skills-counter" id="number-css">0%</div>
+                  </li>
+                  <li class="skills-item item-js">
+                    <p class="skills-name">Java Script</p>
+                    <div class="skills-bar bar">
+                      <div class="bar-line line-js" id="item-js"></div>
+                    </div>
+                    <div class="skills-counter" id="number-js">0%</div>
+                  </li>
+                  <li class="skills-item item-git">
+                    <p class="skills-name">Git, GitHub</p>
+                    <div class="skills-bar bar">
+                      <div class="bar-line line-git" id="item-git"></div>
+                    </div>
+                    <div class="skills-counter" id="number-git">0%</div>
+                  </li>
+                  <li class="skills-item item-vsc">
+                    <p class="skills-name">VSC</p>
+                    <div class="skills-bar bar">
+                      <div class="bar-line line-vsc" id="item-vsc"></div>
+                    </div>
+                    <div class="skills-counter" id="number-vsc">0%</div>
+                  </li>
+                </ul>
+              </section>
+
+              <section class="content-languages languages" id="languages">
+                <h2 class="languages-title title">Languages</h2>
+                <div class="languages-line line"></div>
+                <div class="languages-container">
+                  <div class="languages-item english">
+                    <div class="english-circle">
+                      <div class="circle">
+                        <div class="outer-circle">
+                          <div class="inner-circle">A2</div>
+                        </div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          version="1.1"
+                          width="160px"
+                          height="160px"
+                        >
+                          <defs>
+                            <linearGradient id="GradientColorEng">
+                              <stop offset="0%" stop-color="#70a8c0"></stop>
+                              <stop offset="100%" stop-color="#70a8c066"></stop>
+                            </linearGradient>
+                          </defs>
+                          <circle
+                            id="circle-eng"
+                            cx="80"
+                            cy="80"
+                            r="70"
+                            stroke-linecap="round"
+                          ></circle>
+                        </svg>
+                      </div>
+                    </div>
+                    <p class="english-name">English</p>
+                  </div>
+                  <div class="languages-item poland">
+                    <div class="poland-circle">
+                      <div class="circle">
+                        <div class="outer-circle">
+                          <div class="inner-circle">A1</div>
+                        </div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          version="1.1"
+                          width="160px"
+                          height="160px"
+                        >
+                          <defs>
+                            <linearGradient id="GradientColorPol">
+                              <stop offset="0%" stop-color="#70a8c0"></stop>
+                              <stop offset="100%" stop-color="#70a8c066"></stop>
+                            </linearGradient>
+                          </defs>
+                          <circle
+                            id="circle-pol"
+                            cx="80"
+                            cy="80"
+                            r="70"
+                            stroke-linecap="round"
+                          ></circle>
+                        </svg>
+                      </div>
+                    </div>
+                    <p class="poland-name">Polish</p>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+            <div class="content-right">
+              <section class="content-about about" id="about">
+                <h2 class="about-title title">About me</h2>
+                <div class="about-line line"></div>
+                <div class="about-container">
+                  <p class="about-paragraph">
+                    I am interested in web development because this field offers
+                    great opportunities and career growth. In this area, there
+                    are a large number of materials for self-education and a
+                    large community.
+                  </p>
+                  <p class="about-paragraph">
+                    My goal is to master the profession of a front-end developer
+                    and create high-quality projects. I always try to expand my
+                    skills in different areas and love to work in a team.
+                  </p>
+                  <p class="about-paragraph">
+                    I believe, that my ability to learn and to gain new skills
+                    will lead me through this path of becoming a proficient
+                    Front-end Developer.
+                  </p>
+                </div>
+              </section>
+
+              <section class="content-education education" id="education">
+                <h2 class="education-title title">Education</h2>
+                <div class="education-line line"></div>
+                <div class="education-container">
+                  <ul class="education-list">
+                    <li class="education-item">
+                      <span> University:</span>
+                      Belarusian National Technical University,
+                      manager-economist, 2009 - 2013
+                    </li>
+                    <li class="education-item">
+                      <span>Courses:</span>
+                      <a
+                        href="https://app.rs.school/certificate/r28ci3wj"
+                        target="_blank"
+                        >RS SCHOOL, course “JavaScript/Front-end. Stage 0”,
+                        2023</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </section>
+
+              <section class="content-projects projects" id="projects">
+                <h2 class="projects-title title">Projects</h2>
+                <div class="projects-line line"></div>
+                <div class="projects-container">
+                  <div class="project-slider slider">
+                    <input type="radio" name="control" id="r1" checked>
+                    <input type="radio" name="control" id="r2">
+                    <input type="radio" name="control" id="r3">
+                    <input type="radio" name="control" id="r4">
+
+                    <div class="slider-window" id="slider-container">
+                      <div class="slider-image image-player">
+                        <img
+                          class="slider-item slider-player"
+                          id="slider-player"
+                          src="images/Player.png"
+                          alt="player">
+
+                        <div class="image-cover" id="slider-image1">
+                          <div class="image-button-wrapper">
+                            <a
+                              href="https://natalliazel.github.io/Player/"
+                              class="player-link"
+                              target="_blank"
+                            >
+                              <div class="image-button">See the project</div></a
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="slider-image" id="slider-image2">
+                        <img
+                          class="slider-item slider-library"
+                          id="slider-library"
+                          src="images/library.png"
+                          alt="Library">
+                        <div class="image-cover">
+                          <div class="image-button-wrapper">
+                            <a
+                              href="https://natalliazel.github.io/Library/"
+                              class="library-link"
+                              target="_blank"
+                            >
+                              <div class="image-button">See the project</div></a
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="slider-image" id="slider-image3">
+                        <img
+                          class="slider-item slider-coffee"
+                          id="slider-coffee"
+                          src="images/coffee.png"
+                          alt="Coffee">
+
+                        <div class="image-cover">
+                          <div class="image-button-wrapper">
+                            <a
+                              href="https://natalliazel.github.io/coffee-shop/"
+                              class="coffee-link"
+                              target="_blank"
+                            >
+                              <div class="image-button">See the project</div></a
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="slider-image" id="slider-image4">
+                        <img
+                          class="slider-item slider-snake"
+                          id="slider-snake"
+                          src="images/Snake.png"
+                          alt="Snake">
+                        <div class="image-cover">
+                          <div class="image-button-wrapper">
+                            <a
+                              href="https://natalliazel.github.io/cssMemeSlider/cssMemeSlider/"
+                              class="snake-link"
+                              target="_blank"
+                            >
+                              <div class="image-button">See the project</div></a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="slider-bottom">
+                      <div class="slider-labels">
+                        <label class="slider-label slider-label-1" for="r1"
+                          ><span
+                            class="slider-span slider-span-1"
+                            id="slider-span-1"
+                          ></span
+                        ></label>
+                        <label class="slider-label slider-label-2" for="r2"
+                          ><span
+                            class="slider-span slider-span-2"
+                            id="slider-span-2"
+                          ></span
+                        ></label>
+                        <label class="slider-label slider-label-3" for="r3"
+                          ><span
+                            class="slider-span slider-span-3"
+                            id="slider-span-3"
+                          ></span
+                        ></label>
+                        <label class="slider-label slider-label-4" for="r4"
+                          ><span
+                            class="slider-span slider-span-4"
+                            id="slider-span-4"
+                          ></span
+                        ></label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="content-code code" id="code">
+                <h2 class="code-title title">Code example</h2>
+                <div class="code-line line"></div>
+                <div class="code-container">
+                  <p class="code-text">
+                    Code shows prime numbers from 1 to 10 in console:
+                  </p>
+                  <div class="code-wrapper">
+                    <pre class="code-example">
+  let n = 10;
+    newStart: for (let i = 2; i &lt;= 10; i++) {
+      for (let j = 2; j &lt; i; j++) {
+        if (i % j == 0) continue newStart;
+      }
+      console.log (i);
+    }</pre
+                    >
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </main>
+        <footer class="footer">
+          <div class="footer-logo">
+            <a href="https://rs.school/courses/javascript-ru" target="_blank">
+              <svg
+                id="rss-logo"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 242 90"
+              >
+                <path
+                  d="M137.197 3.257c-6.927 1.609-10.367 5.259-10.401 11.036-0.039 6.727 3.729 9.816 15.812 12.966 5.873 1.53 7.869 4.182 5.091 6.758-3.153 2.922-9.323 1.027-10.1-3.105-0.385-2.062-0.366-2.056-6.837-1.696l-5.735 0.318 0.276 1.806c0.425 2.784 2.722 7.082 4.68 8.758 5.802 4.964 21.78 4.455 27.25-0.872l1.6-1.558 0.307 1.811c1.125 6.663 7.892 12.923 15.677 14.504l2.5 0.509-1.477 1.935c-4.874 6.384-5.012 19.44-0.276 26.221 7.248 10.375 27.644 10.074 34.355-0.506l1.249-1.969v9.391h31.61v-10.097h-18.878v-29.416h-12.732l-0.025 4.5c-0.022 3.676-0.121 4.343-0.548 3.642-2.419-3.968-7.13-7.265-11.748-8.218l-2.489-0.515 2.526-1.898c7.858-5.906 12.752-16.681 11.495-25.307-3.305-22.669-35.958-23.020-48.395-0.523-0.802 1.448-1.485 2.68-1.519 2.737s-1.153-0.956-2.489-2.247c-2.77-2.683-4.995-3.665-12.558-5.538-7.037-1.744-8.477-2.967-6.112-5.192 2.25-2.115 7.149-0.745 8.252 2.309 0.647 1.789 0.529 1.772 8.010 1.277l4.326-0.287-0.276-1.724c-1.277-7.987-11.329-12.386-22.424-9.807zM2.635 23.268v19.755h12.732v-15.806h1.294c2.042 0 3.277 1.502 7.214 8.781l3.682 6.803 7.079 0.121c3.893 0.067 7.076 0.003 7.076-0.141 0-2.225-7.934-15.064-10.136-16.402l-1.207-0.734 2.436-1.274c9.031-4.728 7.321-18.273-2.576-20.396-1.249-0.267-7.574-0.467-14.884-0.467h-12.71v19.755zM195.401 6.952c19.87 5.186 18.051 33.064-2.824 43.242-21.268 10.37-40.222-6.654-30.113-27.045 5.898-11.897 20.984-19.316 32.934-16.194zM24.14 12.417c4.472 2.261 1.505 6.435-4.829 6.795l-3.943 0.225v-7.585l3.842 0.006c2.199 0.003 4.306 0.242 4.93 0.557zM188.373 15.91c-3.496 0.928-7.051 4.461-7.054 7.009-0.006 4.163 3.322 5.664 8.558 3.862 3.203-1.102 4.019-1.102 4.612 0.003 1.004 1.879-2.287 3.794-4.207 2.447-0.965-0.675-4.523 1.454-4.559 2.728-0.056 1.918 4.798 2.644 7.771 1.162 9.442-4.705 6.761-14.805-3.032-11.427-3.915 1.35-4.756 1.409-4.756 0.323 0-1.704 2.663-2.936 3.825-1.775 0.475 0.475 4.075-1.912 4.075-2.703 0-1.181-3.189-2.177-5.237-1.631zM174.201 25.383c-2.095 1.516-2.194 1.122 1.648 6.576 2.365 3.355 3.274 5.012 3.184 5.797-0.157 1.342-1.662 1.699-2.72 0.644-0.672-0.672-0.847-0.619-2.438 0.745-4.019 3.443 2.090 6.398 6.629 3.209 4.987-3.504 4.995-5.678 0.037-12.918-3.845-5.617-4.022-5.729-6.342-4.050zM13.044 49.621c-7.183 1.133-11.388 5.333-11.444 11.43-0.056 6.221 3.977 9.765 13.967 12.265 6.123 1.533 8.139 2.703 8.139 4.719 0 5.678-10.164 5.11-11.239-0.627-0.377-2.002-0.329-1.991-6.812-1.64l-5.749 0.312 0.287 1.8c1.311 8.252 6.109 11.686 16.799 12.021 8.477 0.264 11.391-0.557 15.092-4.258l2.534-2.534 0.931 1.257c5.386 7.284 23.58 7.774 29.554 0.793 1.747-2.039 3.707-5.881 3.907-7.65 0.141-1.246 0.101-1.268-5.223-2.883l-5.363-1.628-0.72 2.166c-2.453 7.383-11.714 7.467-13.748 0.127-0.692-2.495-0.608-8.454 0.157-11.022 1.845-6.207 9.638-7.481 12.8-2.090 1.319 2.25 0.965 2.208 6.95 0.855 5.698-1.288 5.453-1.060 4.154-3.859-5.153-11.087-22.475-13.688-31.66-4.759l-2.562 2.492-1.063-1.814c-2.649-4.523-11.005-6.846-19.682-5.473zM134.342 49.632c-4.863 0.844-9.667 3.904-12.381 7.883-0.726 1.066-0.745 0.979-0.768-3.187l-0.023-4.281h-12.732v13.61h-12.732v-13.61h-12.732v39.513h12.732v-15.806h12.732v15.806h12.732v-8.933l1.375 2.073c5.721 8.634 23.414 10.15 31.466 2.694 9.318-8.626 7.49-28.249-3.136-33.671-4.101-2.093-11.298-3.004-16.535-2.095zM20.183 57.727c0.734 0.38 1.595 1.409 2.062 2.467l0.802 1.817 8.578-0.413-0.281 2.239c-0.371 2.962-0.537 3.074-2.998 1.986-1.159-0.512-4.402-1.505-7.211-2.211-6.646-1.665-7.473-2.022-7.813-3.375-0.63-2.503 3.766-4.112 6.865-2.509zM141.871 59.279c6.502 1.806 7.819 16.729 1.789 20.278-4.503 2.649-10.201 0.394-11.537-4.57-2.655-9.863 2.264-17.786 9.748-15.708zM194.951 59.268c7.554 2.098 7.4 19.074-0.191 21.119-6.103 1.642-10.164-2.599-10.133-10.581 0.034-8.294 3.963-12.305 10.325-10.536z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+          <div class="footer-info">2024</div>
+          <div class="footer-git">
+            <a href="https://github.com/NatalliaZel" target="_blank">
+              <svg
+                id="git-logo"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 1200.000000 1200.000000"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <g
+                  id="logo-bottom"
+                  transform="translate(0.000000,1200.000000) scale(0.100000,-0.100000)"
+                >
+                  <path
+                    d="M5730 11993 c-1080 -57 -2067 -368 -2950 -931 -1544 -984 -2552 -2609 -2744 -4422 -143 -1347 167 -2693 882 -3830 581 -923 1407 -1675 2382 -2164 260 -132 427 -203 740 -317 82 -30 242 -33 303 -6 51 24 114 82 140 131 22 41 22 46 25 650 l3 608 -27 -6 c-67 -17 -316 -47 -477 -58 -349 -22 -666 22 -911 127 -147 63 -234 123 -351 240 -113 114 -174 202 -226 329 -170 416 -447 802 -668 932 -140 82 -261 208 -261 272 0 33 38 70 93 89 80 28 295 25 400 -5 202 -58 419 -212 579 -411 34 -42 97 -130 141 -196 104 -156 159 -226 250 -312 194 -184 422 -287 693 -314 218 -21 506 29 740 130 l51 22 17 97 c43 243 156 484 302 641 65 70 82 60 -146 91 -1477 206 -2263 916 -2469 2230 -35 223 -46 370 -46 660 0 308 10 404 62 625 77 328 252 681 459 930 33 39 65 78 72 87 11 14 9 31 -16 110 -70 217 -101 500 -83 741 19 238 49 385 128 619 l46 137 45 7 c25 4 91 4 146 1 350 -21 808 -206 1325 -536 l137 -87 69 18 c861 224 1769 242 2640 52 88 -19 189 -43 224 -53 l65 -18 110 72 c416 269 794 446 1116 521 112 26 306 41 382 30 l45 -7 47 -137 c159 -472 175 -939 46 -1354 -30 -96 -30 -100 -13 -122 10 -13 47 -59 82 -102 239 -293 410 -673 475 -1055 52 -302 44 -798 -19 -1172 -176 -1044 -709 -1688 -1670 -2014 -236 -80 -553 -152 -835 -188 -194 -25 -182 -16 -113 -88 188 -196 301 -489 333 -862 8 -89 11 -410 8 -1020 l-3 -890 24 -53 c29 -64 95 -125 158 -146 66 -22 177 -20 258 5 37 11 124 42 193 69 2010 768 3466 2572 3791 4695 213 1391 -67 2815 -789 4010 -974 1612 -2635 2672 -4500 2869 -285 31 -660 43 -910 29z"
+                  />
+                </g>
+              </svg>
+            </a>
+          </div>
+        </footer>
+      </div>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
