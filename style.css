@@ -99,6 +99,7 @@ h2 {
 .item-skills:hover,
 .item-education:hover,
 .item-languages:hover,
+.item-projects:hover,
 .item-code:hover {
   font-weight: 600;
 }
